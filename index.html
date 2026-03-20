@@ -42,5 +42,17 @@
     <div>
         <button onclick="alert('Hello from Docker!')">Click Me!</button>
     </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const myElement = document.getElementById('myElementId'); // the element your JS will target
+
+    if (myElement) {
+      console.log('Element exists — safe to run JS here');
+      myElement.textContent = "Hello from JavaScript!";
+    } else {
+      console.warn('Element not found: myElementId');
+    }
+  });
+</script>
 </body>
 </html>
