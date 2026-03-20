@@ -1,3 +1,4 @@
+<img width="1915" height="971" alt="Screenshot 2026-03-20 190249" src="https://github.com/user-attachments/assets/2a6b9dde-a34d-4e91-ac05-8396fbb53288" />
 # My Second Docker Web App
 
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
