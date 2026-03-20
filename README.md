@@ -44,9 +44,11 @@ myapp2/
 ## 🐳 Docker Setup
 
 ### 1. Build Docker Image
+<img width="1460" height="753" alt="Screenshot 2026-03-17 164514" src="https://github.com/user-attachments/assets/9d0de3c5-7c3e-40d6-848d-f0e206548f06" />
 
 ```bash
 docker build -t myapp2 .
+<img width="1915" height="1012" alt="Screenshot 2026-03-17 175207" src="https://github.com/user-attachments/assets/e7f934b5-f51a-4b83-8d43-83bb19e10ab4" />
 
 Run Docker Container
 docker run -p 8080:3000 myapp2
@@ -99,6 +101,7 @@ Configuration:
     node index.js
     PORT=3000
 App Runner automatically redeploys on GitHub push.
+<img width="1895" height="920" alt="Screenshot 2026-03-20 185910" src="https://github.com/user-attachments/assets/ff1f47f2-b1a7-4377-b8fb-e42d3883db0b" />
 
     🌐 Live Application
 
@@ -106,6 +109,7 @@ App Runner automatically redeploys on GitHub push.
 
 ⚠️ Note: Service may be temporarily unavailable if cloud resources are stopped to avoid costs.
 
+<img width="1915" height="971" alt="Screenshot 2026-03-20 190249" src="https://github.com/user-attachments/assets/5392b1e2-47d5-4909-943c-a7a212b0b223" />
 
 
 👨‍💻 Author
