@@ -1,0 +1,25 @@
+{
+  "name": "myapp2",
+  "version": "1.0.0",
+  "description": "**MyApp2** is a Dockerized web application deployed on **AWS App Runner**, demonstrating a complete workflow from local development to cloud deployment.",
+  "main": "index.js",
+  "scripts": {
+     "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicolat/apprunner-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vicolat/apprunner-app/issues"
+  },
+  "homepage": "https://github.com/vicolat/apprunner-app#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
