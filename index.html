@@ -1,69 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Second App</title>
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            background-color: #f0f8ff; 
-            text-align: center; 
-            margin-top: 50px; 
-        }
-        h1 { color: #ff4500; }
-        h2 { color: #1e90ff; }
-        button { 
-            background-color: #32cd32; 
-            color: white; 
-            padding: 10px 20px; 
-            font-size: 16px; 
-            border: none; 
-            cursor: pointer; 
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #228b22;
-        }
-        img {
-            width: 200px;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome to My Second Docker Web App</h1>
-    <h2>Experimenting with Docker and HTML</h2>
-    <p>This is running in a Docker container.</p>
-    
-    <!-- Image -->
-    <img src="https://via.placeholder.com/200" alt="Sample Image">
-    
-    <!-- Button -->
-    <div>
-        <button onclick="alert('Hello from Docker!')">Click Me!</button>
-    </div>
-    <div id="myElementId"></div>
-    <script>
-  // Wait until the page is fully loaded
-  document.addEventListener('DOMContentLoaded', () => {
-    
-    // Get the element you want to update
-    const myElement = document.getElementById('myElementId');
-    
-    // Only run code if the element exists
-    if (myElement) {
-      console.log('Element exists — safe to run JS here');
-      // Change the text inside the div
-      myElement.textContent = "Hello from JavaScript!";
-      
-      // Example: change styles
-      myElement.style.color = "blue";
-      myElement.style.fontWeight = "bold";
-    } else {
-      console.warn('Element not found: myElementId');
+  <meta charset="UTF-8">
+  <title>My Second Docker Web App</title>
+  <style>
+    /* Body styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      text-align: center;
+      margin-top: 50px;
+      cursor: pointer;
+      padding: 20px;
     }
 
-  });
-</script>
+    /* Headings */
+    h1 { color: #ff4500; }
+    h2 { color: #1e90ff; }
+    p { color: #333; }
+
+    /* Button styling */
+    button {
+      background-color: #32cd32;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    button:hover { background-color: #228b22; }
+
+    /* Image styling */
+    img {
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+
+    /* Div updated by JS */
+    #myElementId {
+      color: blue;
+      font-weight: bold;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Second Docker Web App</h1>
+  <h2>Experimenting with Docker and HTML</h2>
+  <p>This is running in a Docker container.</p>
+
+  <!-- Sample Image -->
+  <img src="https://via.placeholder.com/200" alt="Sample Image">
+
+  <!-- Button -->
+  <div>
+    <button onclick="alert('Hello from Docker!')">Click Me</button>
+  </div>
+
+  <!-- JS-updated Div -->
+  <div id="myElementId"></div>
+
+  <!-- Inline JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const myElement = document.getElementById('myElementId');
+      if (myElement) {
+        myElement.textContent = "Hello from JavaScript!";
+        myElement.style.color = "blue";
+        myElement.style.fontWeight = "bold";
+      }
+    });
+  </script>
 </body>
 </html>
