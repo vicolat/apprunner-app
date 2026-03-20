@@ -4,7 +4,7 @@
   "description": "**MyApp2** is a Dockerized web application deployed on **AWS App Runner**, demonstrating a complete workflow from local development to cloud deployment.",
   "main": "index.js",
   "scripts": {
-     "start": "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
