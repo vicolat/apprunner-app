@@ -1,5 +1,3 @@
-<img width="1915" height="971" alt="Screenshot 2026-03-20 190249" src="https://github.com/user-attachments/assets/2a6b9dde-a34d-4e91-ac05-8396fbb53288" />
-# My Second Docker Web App
 
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
@@ -110,7 +108,8 @@ App Runner automatically redeploys on GitHub push.
 
 ⚠️ Note: Service may be temporarily unavailable if cloud resources are stopped to avoid costs.
 
-<img width="1915" height="971" alt="Screenshot 2026-03-20 190249" src="https://github.com/user-attachments/assets/5392b1e2-47d5-4909-943c-a7a212b0b223" />
+
+<img width="1915" height="971" alt="Screenshot 2026-03-20 190249" src="https://github.com/user-attachments/assets/dd64b9f5-4645-4f41-abad-a3b538faefda" />
 
 
 👨‍💻 Author
